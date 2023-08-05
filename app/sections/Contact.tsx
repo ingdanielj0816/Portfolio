@@ -41,7 +41,7 @@ const Contact = () => {
                             }
                         />
                         <Link
-                            href="mailto:danielj0816@outlook.com?subject=Propuesta%20portafolio%20&amp;body=Hola%2C%20Ingeniero%20me%20gustaría%20contactarte,%20muchas%20gracias%20buen%20dia."
+                            href="mailto:danielj0816@outlook.comsubject=Propuesta%20portafolio%20&amp;body=Hola%2C%20Ingeniero%20me%20gustaría%20contactarte,%20muchas%20gracias%20buen%20dia."
                             target="_blank"
                             aria-label="Enviame un correo"
                             className="mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:w-[170px] lg:mt-4"
