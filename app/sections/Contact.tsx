@@ -34,14 +34,14 @@ const Contact = () => {
                     <div className=" flex w-[350px] max-w-[90%] flex-col items-end text-right text-[14px] font-semibold uppercase text-[#e4ded7] sm:w-[350px] sm:text-[14px] md:w-[310px] md:items-start md:text-left md:text-[16px] lg:w-[420px] lg:text-[16px]">
                         <AnimatedBody
                             text={
-                                "Tienes alguna pregunta, quieres trabajar conmigo en algun proyecto, contratarme, o colaborar en mis proyectos?"
+                                "Tienes alguna pregunta, escribeme y estaremos en contacto"
                             }
                             className={
                                 "-mb-1 inline-block overflow-hidden pt-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
                             }
                         />
                         <Link
-                            href="mailto:danielj0816@outlook.comsubject=Propuesta%20portafolio%20&amp;body=Hola%2C%20Ingeniero%20me%20gustaría%20contactarte,%20muchas%20gracias%20buen%20dia."
+                            href="mailto:danielj0816@outlook.com?subject=Propuesta%20portafolio%20&amp;body=Hola%2C%20Ingeniero%20me%20gustaría%20contactarte,%20muchas%20gracias%20buen%20dia."
                             target="_blank"
                             aria-label="Enviame un correo"
                             className="mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:w-[170px] lg:mt-4"
