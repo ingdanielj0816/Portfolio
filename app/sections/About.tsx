@@ -21,16 +21,16 @@ const About = () => {
 
                 <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-20">
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
-                        <AnimatedBody text="Mi camino en el mundo de la ingeniería mecatrónica y la programación comenzó hace más de dos años como un estudiante curioso. A medida que adquiría conocimientos en la universidad, mi sed de aprendizaje me llevó más allá de las aulas, sumergiéndome en programas y cursos autodidactas que expandieron mis horizontes." />
+                        <AnimatedBody text="Soy un apasionado ingeniero mecatrónico a punto de culminar mi formación académica. Mi travesía comenzó con los fundamentos en la universidad, pero mi ambición me llevó a explorar más allá por mi cuenta. He llevado mis habilidades al siguiente nivel, desarrollando un sistema de órdenes de producción para la empresa de mi padre y expandiendo mi influencia como programador freelance en plataformas como Workana. Mi capacidad para comunicarme en inglés, francés y español fortalece mi alcance en un mundo diverso y global." />
 
                         <AnimatedBody
                             delay={0.1}
-                            text="Whether I’m designing a sleek user interface or coding a complex application, I’m always striving to create something unique and innovative. I love experimenting with new technologies and staying up-to-date with the latest trends in the tech world."
+                            text="Mi compromiso con la innovación trasciende la profesión. Sueño con dejar un legado significativo, impulsando el progreso humano y liderando avances en tecnología y robótica. Siempre estoy dispuesto a aprender y mantenerme actualizado con las últimas tendencias tecnológicas. Actualmente, me sumerjo en proyectos emocionantes que espero compartir pronto. Sin embargo, mi pasión por la creación y la excelencia me mantiene receptivo a nuevas oportunidades y colaboraciones que continúen impulsando soluciones vanguardistas."
                         />
 
                         <AnimatedBody
                             delay={0.2}
-                            text="Right now, I’m working on some exciting projects that I can’t wait to share with you. But I’m always open to new opportunities and collaborations."
+                            text="Te invito a que nos unamos en este apasionante recorrido, donde creamos un impacto perdurable en la esfera tecnológica. Juntos, estamos allanando el camino hacia un futuro emocionante y lleno de posibilidades, mientras seguimos explorando los límites de la innovación."
                         />
                     </div>
                 </div>

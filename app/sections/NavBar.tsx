@@ -17,7 +17,7 @@ const NavBar = () => {
     return (
         <nav className="nowrap fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex items-center justify-center gap-1 px-1 py-1 text-[#e4ded7] sm:w-[383.3px] md:p-2 lg:w-[391.3px]">
             <Container
-                width="100%"
+                width="130%"
                 height="50px"
                 color="rgba(255, 255, 255, 0.1)"
                 borderRadius={10}
@@ -33,7 +33,7 @@ const NavBar = () => {
                         aria-label="Scroll to Home Section"
                     >
                         <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
-              HOME
+                            HOME
                         </h4>
                     </Link>
 
@@ -44,7 +44,7 @@ const NavBar = () => {
                         aria-label="Scroll to About Section"
                     >
                         <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
-              ABOUT
+                            ABOUT
                         </h4>
                     </Link>
 
@@ -55,7 +55,7 @@ const NavBar = () => {
                         aria-label="Scroll to Work Section"
                     >
                         <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
-              WORK
+                            WORK
                         </h4>
                     </Link>
 
@@ -66,7 +66,17 @@ const NavBar = () => {
                         aria-label="Scroll to Contact Section"
                     >
                         <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
-              CONTACT
+                            CONTACT
+                        </h4>
+                    </Link>
+                    <Link
+                        href="#lenguage"
+                        data-blobity-magnetic="false"
+                        onClick={handleScroll}
+                        aria-label="Scroll to Contact Section"
+                    >
+                        <h4 className="py-2 px-2 text-[12px] sm:px-4 sm:text-[14px] md:py-1 md:px-4">
+                            LENGUAGE
                         </h4>
                     </Link>
                 </nav>

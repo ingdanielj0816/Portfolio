@@ -3,13 +3,16 @@ import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
 import {
+    SiAbbrobotstudio,
     SiAdobeaftereffects, SiAdobefonts,
     SiAdobeillustrator,
-    SiAdobephotoshop, SiAstro, SiCinema4D, SiCplusplus, SiFigma, SiFramer, SiGit,
+    SiAdobeindesign,
+    SiAdobephotoshop, SiAngular, SiAnsys, SiArduino, SiAstro, SiCinema4D, SiCisco, SiCplusplus, SiFigma, SiFirebase, SiFlutter, SiFramer, SiGit,
     SiGithub,
     SiGooglechrome, SiGooglefonts,
     SiIntellijidea, SiJavascript, SiKotlin, SiLua,
-    SiNeovim, SiNextdotjs, SiReact, SiRust, SiTypescript, SiWebstorm, SiZig
+    SiMysql,
+    SiNeovim, SiNextdotjs, SiNodedotjs, SiPhp, SiPython, SiReact, SiRobotframework, SiRust, SiStrapi, SiTypescript, SiUnity, SiVisualstudiocode, SiWebstorm, SiZig
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 
@@ -21,7 +24,7 @@ const Tools = () => {
         >
             <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
                 <AnimatedTitle
-                    text={"TOOLS IM USING."}
+                    text={"Programas que uso"}
                     className={
                         "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
                     }
@@ -31,14 +34,14 @@ const Tools = () => {
 
                 <div className="mx-auto w-[100%] lg:max-w-[1200px] justify-center">
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
-                        <AnimatedBody delay={0.1} text="Design" />
+                        <AnimatedBody delay={0.1} text="Diseño" />
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.1} stepSize={0.1} iconSize={50}>
-                                <SiAdobephotoshop size={50}/>
-                                <SiAdobeaftereffects size={50}/>
-                                <SiAdobefonts size={50}/>
-                                <SiCinema4D size={50}/>
-                                <SiGooglefonts size={50}/>
+                                <SiAdobephotoshop size={50} />
+                                <SiAdobeillustrator size={50} />
+                                <SiAdobefonts size={50} />
+                                <SiAdobeindesign size={50} />
+                                <SiGooglefonts size={50} />
                             </AnimatedTools>
                         </div>
                     </div>
@@ -46,11 +49,13 @@ const Tools = () => {
                         <AnimatedBody delay={0.2} text="Frontend" />
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.2} stepSize={0.1} iconSize={50}>
-                                <SiTypescript size={50}/>
-                                <SiJavascript size={50}/>
-                                <SiReact size={50}/>
-                                <SiAstro size={50}/>
-                                <SiNextdotjs size={50}/>
+                                <SiPython size={50} />
+                                <SiJavascript size={50} />
+                                <SiReact size={50} />
+                                <SiFlutter size={50} />
+                                <SiNodedotjs size={50} />
+                                <SiAngular size={50} />
+
                             </AnimatedTools>
                         </div>
                     </div>
@@ -58,23 +63,25 @@ const Tools = () => {
                         <AnimatedBody delay={0.3} text="Backend" />
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.3} stepSize={0.1} iconSize={50}>
-                                <SiZig size={50}/>
-                                <SiRust size={50}/>
-                                <SiCplusplus size={50}/>
-                                <SiLua size={50}/>
-                                <SiKotlin size={50}/>
+                                <SiMysql size={50} />
+                                <SiFirebase size={50} />
+                                <SiStrapi size={50} />
+                                <SiCplusplus size={50} />
+                                <SiPhp size={50} />
                             </AnimatedTools>
                         </div>
                     </div>
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
-                        <AnimatedBody delay={0.4} text="Other" />
+                        <AnimatedBody delay={0.4} text="Ingeniería" />
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.4} stepSize={0.1} iconSize={50}>
-                                <SiGithub size={50}/>
-                                <SiGit size={50}/>
-                                <SiNeovim size={50}/>
-                                <SiIntellijidea size={50}/>
-                                <SiWebstorm size={50}/>
+                                <SiAnsys size={50} />
+                                <SiArduino size={50} />
+                                <SiVisualstudiocode size={50} />
+                                <SiUnity size={50} />
+                                <SiCisco size={50} />
+                                <SiRobotframework size={50} />
+                                <SiAbbrobotstudio size={50} />
                             </AnimatedTools>
                         </div>
                     </div>

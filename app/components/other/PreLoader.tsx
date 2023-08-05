@@ -94,6 +94,8 @@ const PreLoader: React.FC = () => {
                     height: "60px",
                 }}
             >
+                <span>Ingeniero Mecatrónico</span>
+                <span> / </span>
                 <span>Daniel Jose Muñoz Castañeda</span>
                 <span> / </span>
                 <span>FullStack Developer</span>

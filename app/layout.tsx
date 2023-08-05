@@ -11,16 +11,16 @@ const syne = Syne({
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://www.seekvisualartist.com/"),
-    title: "Seek Visual Artist",
+    title: "DanielPortfolio",
     description:
-    "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
+        "Portafolio profesional del ingeniero Daniel Muñoz de la universidad militar nueva granada Bogotá, Colombia",
     generator: "Next.js",
-    applicationName: "Seek Visual Artist",
+    applicationName: "DanielPortfolio",
     keywords: [
-        "Seek Visual Artist",
-        "SeekVA",
-        "Seek Design",
-        "Seek Visuals",
+        "Daniel",
+        "ing",
+        "ingeniero mecatronico",
+        "Mecatronica",
         "freelance",
         "developer",
         "freelance developer",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
         "creative developer",
         "creative engineer",
         "tech",
-        "germany",
+        "colombia",
         "software",
         "software developer",
         "portfolio",
@@ -46,17 +46,17 @@ export const metadata: Metadata = {
     ],
     colorScheme: "dark",
     openGraph: {
-        title: "Seek Visual Artist - Designer and Developer",
+        title: "DanielPortfolio",
         description:
-      "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
-        url: "https://www.seekvisualartist.com/",
-        siteName: "www.seekvisualartist.com",
+            "Portafolio profesional del ingeniero Daniel Muñoz de la universidad militar nueva granada Bogotá, Colombia",
+        url: ".",
+        siteName: "www.DanielPortfolio.com",
         images: [
             {
-                url: "./public/metadata.jpg",
+                url: "./public/logor.png",
                 width: 1200,
-                height: 630,
-                alt: "Seek Visual Artist - Designer and Developer",
+                height: 1200,
+                alt: "DanielPortfolio",
             },
         ],
         locale: "en-US",
@@ -64,12 +64,12 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Seek Visual Artist - Designer and Developer",
+        title: "DanielPortfolio",
         description:
-      "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
-        creator: "SeekVFX",
+            "Portafolio profesional del ingeniero Daniel Muñoz de la universidad militar nueva granada Bogotá, Colombia",
+        creator: "Daniel",
         creatorId: "0000000000",
-        images: ["./public/metadata.jpg"],
+        images: ["./public/logor.png"],
     },
     robots: {
         index: true,
@@ -88,7 +88,7 @@ export const metadata: Metadata = {
 };
 
 type RootLayoutProps = {
-  children: ReactNode;
+    children: ReactNode;
 };
 
 export default function RootLayout({ children }: RootLayoutProps) {
