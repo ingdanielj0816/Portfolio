@@ -10,7 +10,7 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://www.seekvisualartist.com/"),
+    metadataBase: new URL("https://portfoliodaniel/"),
     title: "DanielPortfolio",
     description:
         "Portafolio profesional del ingeniero Daniel Muñoz de la universidad militar nueva granada Bogotá, Colombia",
