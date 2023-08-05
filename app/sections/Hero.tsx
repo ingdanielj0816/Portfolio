@@ -1,4 +1,4 @@
-import { spaceGrotesk } from "../fonts/spaceGrotesk";
+//import { spaceGrotesk } from "../fonts/spaceGrotesk";
 import { motion } from "framer-motion";
 import Logo from "../components/svg/Logo";
 import HeroBackground from "../components/background/HeroBackground";
@@ -15,7 +15,8 @@ const Hero = () => {
             <HeroBackground />
             <div className="mt-10 flex flex-col items-center justify-center sm:mt-0">
                 <div
-                    className={`relative flex flex-col items-center justify-center ${spaceGrotesk.className} pointer-events-none`}
+                    className={`relative flex flex-col items-center justify-center pointer-events-none`}
+                    //className={`relative flex flex-col items-center justify-center ${spaceGrotesk.className} pointer-events-none`}
                 >
                     <Logo width={180} height={180} />
                 </div>
