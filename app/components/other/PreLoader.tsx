@@ -96,7 +96,7 @@ const PreLoader: React.FC = () => {
             >
                 <span>Ingeniero Mecatrónico</span>
                 <span> / </span>
-                <span>Daniel Jose Muñoz Castañeda</span>
+                <span>Daniel José Muñoz Castañeda</span>
                 <span> / </span>
                 <span>FullStack Developer</span>
                 <div className="sub hidden"></div>
